@@ -10,4 +10,7 @@ export class CapacitorPluginVideoDemoWeb
     console.log('ECHO', options);
     return options;
   }
+  async playVideo(video: string): Promise<void> {
+    console.log('ECHO', video);
+  }
 }
